@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
 
                         DESC
 
-  s.homepage         = 'https://github.com/shoheiyokoyama/Koyomi'
+  s.homepage         = 'https://github.com/lenoln/Koyomi'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shoheiyokoyama' => 'shohei.yok0602@gmail.com' }
-  s.source           = { :git => 'https://github.com/shoheiyokoyama/Koyomi.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lenoln/Koyomi.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Koyomi/**/*.swift'
 end
